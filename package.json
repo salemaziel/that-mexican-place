@@ -1,0 +1,41 @@
+{
+  "name": "gatsby-starter-lander",
+  "author": "Hunter Chang",
+  "repository": "https://github.com/codebushi/gatsby-starter-lander",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build"
+  },
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.22",
+    "gatsby": "^2.31.1",
+    "gatsby-plugin-manifest": "^2.11.0",
+    "gatsby-plugin-sharp": "^2.13.4",
+    "gatsby-source-filesystem": "^2.10.0",
+    "gatsby-theme-codebushi": "1.0.0",
+    "gatsby-transformer-sharp": "^2.11.0",
+    "gatsby-transformer-yaml": "^2.10.0",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "17.0.1",
+    "react-icons": "^4.1.0",
+    "react-reveal": "^1.2.2",
+    "react-simple-sidenav": "^2.0.0",
+    "react-slick": "^0.28.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "7.19.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "prettier": "2.2.1"
+  }
+}

@@ -1,0 +1,46 @@
+
+backend:
+  name: git-gateway
+  repo: salemaziel/food-demo02-netlifycms
+  branch: main
+media_folder: static/assets/images
+public_folder: /assets
+collections:
+  - name: Personalization
+    label: Personalization
+    files:
+      - label: "Change Logos, Background Photos, Page Titles, and Links"
+        name: "customization"
+        file: "site/customization.yml"
+        fields:
+          - {label: "Logo Image", name: "logo-image", widget: image}
+          - {label: "Background Photo", name: "background-photo", widget: image}
+          - {label: "Site Title", name: "site-title", widget: string}
+          - {label: "Site Subtitle", name: "site-subtitle", widget: string}
+          - {label: "Business Address", name: "business_address", widget: string}
+          - {label: "Business Phone", name: "business_phone", widget: string}
+          - {label: "Sunday Hours", name: "sunday_hours", widget: string}
+          - {label: "Monday Hours", name: "monday_hours", widget: string}
+          - {label: "Tuesday Hours", name: "tuesday_hours", widget: string}
+          - {label: "Wednesday Hours", name: "wednesday_hours", widget: string}
+          - {label: "Thursday Hours", name: "thursday_hours", widget: string}
+          - {label: "Friday Hours", name: "friday_hours", widget: string}
+          - {label: "Saturday Hours", name: "saturday_hours", widget: string}
+          - {label: "Facebook link", name: "facebook-link", widget: string}
+          - {label: "Instagram link", name: "instagram-link", widget: string}
+          - {label: "Twitter link", name: "twitter-link", widget: string}
+          - {label: "Yelp link", name: "yelp-link", widget: string}
+          - {label: "Theme", name: "theme", widget: string}
+          - label: "Featured Cards"
+            name: "featured_cards"
+            widget: list
+            fields:
+              - {label: "Image", name: "image", widget: "image"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Price", name: "price", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+
+
+
+
+          

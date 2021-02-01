@@ -1,0 +1,41 @@
+@tailwind base;
+
+a {
+  @apply text-primary;
+}
+a:hover {
+  @apply text-primary-darker;
+}
+#svg-pattern-1 {
+  position: relative;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  color: white;
+  fill: white;
+}
+
+.heroBG {
+  opacity: 1;
+  transition-duration: 600ms;
+  transition-property: opacity;
+  transition-timing-function: ease-in-out;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+@tailwind components;
+
+@tailwind utilities;

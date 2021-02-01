@@ -1,0 +1,23 @@
+background-photo: /assets/images/bg.jpg
+logo-image: /assets/images/generic-logo-white.png
+site-title: Restaurant
+site-subtitle: Mexican Food
+facebook-link: https://facebook.com
+twitter-link: https://twitter.com
+instagram-link: https://instagram.com
+yelp-link: https://yelp.com
+sunday_hours: 8:30AM - 5:30PM
+monday_hours: 8:30AM - 5:30PM
+tuesday_hours: 8:30AM - 5:30PM
+wednesday_hours: 8:30AM - 5:30PM
+thursday_hours: 8:30AM - 5:30PM
+friday_hours: 8:30AM - 5:30PM
+saturday_hours: 8:30AM - 5:30PM
+business_address: 1234 N. Broadway, Escondido, CA 92025
+business_phone: 760-555-5555
+theme: "red"
+featured_cards:
+  - {image: /assets/images/bg.jpg, title: "Title1", description: "Description1", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title2", description: "Description2", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title3", description: "Description3", price: "100$"}
+  - {image: /assets/images/bg.jpg, title: "Title4", description: "Description4", price: "100$"}
