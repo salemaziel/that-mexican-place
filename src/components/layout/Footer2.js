@@ -12,7 +12,7 @@ const Footer2 = () => {
           <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
     </svg>*/}
         <img src={Logo} alt='' className="w-16 h-16 p-2" />
-        <span className="ml-3 text-xl">That Mexican Place</span>
+        <span className="ml-3 text-xl">That Mexican Place </span>
       </a>
       <p className="mt-2 text-sm text-gray-500">We have a variety of mexican food including: enchiladas, chilaquiles, burritos, tacos, tortas and more. We invite you to try our authentic mexican Food.</p>
     </div>
