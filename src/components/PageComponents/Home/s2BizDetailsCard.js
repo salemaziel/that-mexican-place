@@ -100,18 +100,18 @@ return(
         </table>
       </div>
       <div id="location" className="" ></div>
-      <div className="px-5 pt-12 mx-auto mb-10 text-2xl text-left md:pl-10 lg:pl-32">
+      <div className="px-5 pt-5 mx-auto mb-10 text-2xl text-left md:pl-10 lg:pl-32">
         
         <span className="block pb-5 mx-auto text-4xl text-center">Location</span>
-        <div className="flex mx-auto lg:px-3">
+        <div className="flex justify-center mx-auto lg:px-3">
         <MdLocationOn size="3rem" className="mr-3" />
         <a href="https://www.google.com/maps/dir//That+Mexican+Place,+200+W+El+Norte+Pkwy,+Escondido,+CA+92026/@33.1398241,-117.0937007,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80dbf4b028a9c805:0x2f75747a6e44876c!2m2!1d-117.091512!2d33.1398241" className="text-left text-red-700 underline "> 200 W El Norte Pkwy Suite 9<br />
          Escondido, CA 92026 </a>
         </div>
         <span className="block py-5 mx-auto text-4xl text-center">Phone</span>
-        <div className="flex mx-auto lg:px-3">
-          <FaPhoneAlt size="2rem"  className="mr-4" />
-        <a href="tel:760743-3783" className="text-left text-red-700 lg:px-5"> (760) 743-3783 </a>
+        <div className="flex justify-center mx-auto lg:px-3">
+          <FaPhoneAlt size="2rem"  className="mr-3" />
+        <a href="tel:760743-3783" className="text-left text-red-700 underline lg:px-5"> (760) 743-3783 </a>
         </div>
       </div>
     </div>

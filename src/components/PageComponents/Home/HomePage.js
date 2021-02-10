@@ -30,10 +30,10 @@ const HomePage = (props) => {
         />
 
         <S2BizDetailsCard />
-       
+        <S4FeaturedSpecials />
        <S3MenuButton />
 
-        <S4FeaturedSpecials />
+       
 
 
         </>
