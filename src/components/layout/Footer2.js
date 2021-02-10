@@ -16,7 +16,20 @@ const Footer2 = () => {
       </a>
       <p className="mt-2 text-sm text-gray-500">We have a variety of mexican food including: enchiladas, chilaquiles, burritos, tacos, tortas and more. We invite you to try our authentic mexican Food.</p>
     </div>
-    <div className="flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center md:pl-20 md:mt-0 md:text-left">
+    <div className="flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center md:pl-10 md:mt-0 md:text-left">
+    <div className="w-full ml-auto lg:w-1/2 md:w-3/4">
+  <h2 className="inline-block text-xl font-semibold text-left text-gray-800">Join Our Newsletter</h2>
+  <p className="pl-px text-xs text-gray-700">
+    Latest news ,articles and updates montly delevered to your inbox.
+  </p>
+  <form action="#" className="mt-2">
+    <div className="flex items-center">
+      <input type="email" className="w-full px-2 py-4 mr-2 bg-gray-100 border border-gray-400 rounded-md shadow-inner focus:outline-none" required />
+      <button className="px-5 py-2 text-gray-200 bg-green-600 rounded shadow " style={{marginLeft: '-7.8rem'}}>Sign Up</button>
+    </div>
+  </form>
+</div>
+
       {/*<div className="w-full px-4 lg:w-1/4 md:w-1/2">
         <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">CATEGORIES</h2>
         <nav className="mb-10 list-none">

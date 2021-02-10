@@ -13,16 +13,16 @@ const S1Hero = (props) => {
             <img src={Logo} alt='' className="w-1/2 mx-auto" />
           </div>
           <div className="text-center lg:text-left lg:w-1/2">
-            <h1 className="font-sans text-4xl font-bold leading-none text-white lg:text-5xl xl:text-6xl" style={{textShadow: "2px 2px 5px lightgray"}}>
+            <h1 className="font-sans text-5xl leading-none text-white lg:text-5xl xl:text-6xl" style={{textShadow: "2px 2px 5px lightgray"}}>
              {/* {props.Title}*/}
-              <span className="text-green-800 shadow">{props.FirstWord}</span>
-              <span className="text-white">{props.SecondWord}</span>
-              <span className="text-red-700">{props.ThirdWord}</span>
+              <span className="tracking-widest text-green-800 shadow fontFredoka">{props.FirstWord}</span>
+              <span className="tracking-widest text-white fontFredoka">{props.SecondWord}</span>
+              <span className="tracking-widest text-red-700 fontFredoka">{props.ThirdWord}</span>
             </h1>
-            <p className="mt-6 text-xl font-light text-white lg:text-2xl">{props.Description}</p>
+            <p className="mt-6 text-xl font-bold text-white lg:text-2xl" style={{textShadow: "2px 2px 5px black"}}>{props.Description}</p>
             <p className="mt-8 mb-20 md:mt-12">
               {/*<Button size="lg">{props.ButtonText}</Button>*/}
-              <span class="bg-red-600 w-full text-center px-10 py-5 rounded-md text-white text-xl cursor-pointer hover:bg-red-800" 
+              <span className="w-full px-10 py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka" 
                             			data-glf-cuid="24a4ac68-5254-4dce-99e1-b6ceeb75b4b5" 
                             			data-glf-ruid="8f336410-bd0a-4292-8e0a-fc8f6e24b461" 
                                         id="glfButton1"> See Menu &amp; Order 

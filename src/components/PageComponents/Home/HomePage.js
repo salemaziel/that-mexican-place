@@ -21,10 +21,10 @@ const HomePage = (props) => {
         <S1Hero
         bgImage={BG}
         Title="That Mexican Place"
-        FirstWord="That "
-        SecondWord="Mexican "
-        ThirdWord="Place"
-        Description="California Made With Mexican Roots"
+        FirstWord="THAT "
+        SecondWord="MEXiCAN "
+        ThirdWord="PLACE"
+        Description="California Made, With Mexican Roots"
         ButtonText="Get Started"
         BelowButtonText=""
         />

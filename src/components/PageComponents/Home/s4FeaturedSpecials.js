@@ -6,7 +6,8 @@ import Fade from "react-reveal/Fade"
 const S4FeaturedSpecials = () => {
     return(
         <>
-<div className="m-auto bg-white p-auto">
+        <div id="specials" className="py-10 my-10" />
+<div className="pt-12 m-auto bg-white">
     <Fade bottom>
   <h1 className="justify-start px-5 py-5 mx-5 mb-5 text-4xl font-bold text-center text-gray-800 lg:px-20 md:px-10 lg:mx-40 md:mx-20">
     Featured Specials
