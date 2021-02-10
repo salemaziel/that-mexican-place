@@ -1,7 +1,6 @@
 import React, { useState, useEffect  } from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import LogoIcon from '../../svg/LogoIcon';
-import Button from '../Button';
+
 
 import Logo from "../../images/logo-that-mexican-place.png"
 
@@ -22,7 +21,7 @@ const Header = () => {
   <header 
   /*className="sticky top-0 bg-white shadow" */
   className={
-    "sticky" + " top-0" + " transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-green-700` : " bg-transparent") + (scroll ? " shadow" : "") + (scroll? " visible" : " hidden")
+    "sticky" + " top-0" + " transition-all" + " ease-out" + " duration-300" + (scroll ? ` bg-green-700 bg-opacity-75` : " bg-transparent") + (scroll ? " shadow" : "") + (scroll? " visible" : " hidden")
   }
   style={{zIndex: "99"}}>
     <nav className="container flex flex-col items-center justify-between px-8 py-4 mx-auto sm:flex-row">

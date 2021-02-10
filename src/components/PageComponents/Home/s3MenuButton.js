@@ -11,9 +11,8 @@ const S3MenuButton = () => {
         		<div className="flex justify-center flex-initial">
 
 							<span className="w-full py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer fontFredoka hover:bg-red-800" 
-                            			data-glf-cuid="24a4ac68-5254-4dce-99e1-b6ceeb75b4b5" 
-                            			data-glf-ruid="8f336410-bd0a-4292-8e0a-fc8f6e24b461" 
-                                        id="glfButton1"> See Menu &amp; Order 
+data-glf-cuid="8e7c87fd-2ed0-44b4-9886-8626e340905e"
+data-glf-ruid="d3afdc87-1713-43aa-bd55-854fdf812f01"     id="glfButton1"> See Menu &amp; Order 
                             </span>
                             
                 </div>
