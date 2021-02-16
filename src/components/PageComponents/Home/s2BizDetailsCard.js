@@ -24,6 +24,7 @@ return(
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3340.8302429052183!2d-117.09370068470827!3d33.13982408086392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbf4b028a9c805%3A0x2f75747a6e44876c!2sThat%20Mexican%20Place!5e0!3m2!1sen!2sus!4v1612178335240!5m2!1sen!2sus" width="100%" height="100%" className="w-full h-64 mb-8 rounded-t-xl md:rounded-tl-xl md:rounded-bl-xl md:rounded-r-none md:h-full" frameBorder={0} style={{border: 0}} allowFullScreen aria-hidden="false" tabIndex={0} />
     </div>
     <div id="hours" className="w-full">
+    <div id="location" className="" >
       <h2 className="mb-8 text-2xl font-bold text-center sm:text-xl md:text-2xl md:mt-5">Hours</h2>
       <div className="justify-center table w-full ">
         <table className="w-full mx-auto mb-16 table-auto">
@@ -99,7 +100,6 @@ return(
           </tbody>     
         </table>
       </div>
-      <div id="location" className="" ></div>
       <div className="px-5 pt-5 mx-auto mb-10 text-2xl text-left md:pl-10 lg:pl-32">
         
         <span className="block pb-5 mx-auto text-4xl text-center">Location</span>
@@ -114,6 +114,7 @@ return(
         <a href="tel:760743-3783" className="text-left text-red-700 underline lg:px-5"> (760) 743-3783 </a>
         </div>
       </div>
+    </div>
     </div>
   </div>
   </Fade>

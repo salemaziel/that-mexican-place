@@ -16,7 +16,7 @@ const Footer2 = () => {
             </a>
             <p className="mt-2 text-sm text-gray-500">
               We have a variety of mexican food including: enchiladas, chilaquiles, burritos, tacos,
-              tortas and more. We invite you to try our authentic mexican Food.
+              tortas and more. We invite you to try our authentic Mexican Food.
             </p>
           </div>
           <div className="flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center md:pl-10 md:mt-0 md:text-left">
@@ -25,18 +25,30 @@ const Footer2 = () => {
                 Join Our Newsletter
               </h2>
               <p className="pl-px text-xs text-gray-700">
-                Latest news ,articles and updates montly delevered to your inbox.
+                Latest news, updates, and coupons delivered monthly to your inbox.
               </p>
-              <form action="#" className="mt-2">
+              <form 
+              action="#" 
+              className="mt-2"
+              name="newsletterForm"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="bot-field" />
+                      <input type="hidden" name="form-name" value="newsletterForm" />
+              
                 <div className="flex items-center">
                   <input
                     type="email"
+                    id="email"
+                    name="email"
                     className="w-full px-2 py-4 mr-2 bg-gray-100 border border-gray-400 rounded-md shadow-inner focus:outline-none"
                     required
                   />
                   <button
                     className="px-5 py-2 text-gray-200 bg-green-600 rounded shadow "
                     style={{ marginLeft: '-7.8rem' }}
+                    type="submit"
                   >
                     Sign Up
                   </button>

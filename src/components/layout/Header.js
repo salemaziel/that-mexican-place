@@ -43,7 +43,7 @@ const Header = () => {
 
       </div>
      <div className="hidden md:block">
-        <span className="w-full px-10 py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka" 
+        <span className="w-full px-6 py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka" 
 data-glf-cuid="8e7c87fd-2ed0-44b4-9886-8626e340905e"
 data-glf-ruid="d3afdc87-1713-43aa-bd55-854fdf812f01" id="glfButton1"> See Menu &amp; Order 
                             </span>
