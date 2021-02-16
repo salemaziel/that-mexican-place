@@ -25,6 +25,7 @@
   transition-timing-function: ease-in-out;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hide-scroll-bar {

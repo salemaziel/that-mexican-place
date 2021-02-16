@@ -26,18 +26,18 @@ const Header = () => {
     <nav className="container flex flex-col items-center justify-between px-8 py-4 mx-auto sm:flex-row">
       <Link to="/" className="flex items-center text-2xl">
         
-        <div className="w-12 mr-3">
+        <div className="w-20 mr-3">
           <img src={Logo} alt="Logo" className="w-full" />
         </div>
         </Link>
       <div className="flex mt-4 sm:mt-0">
-        <AnchorLink className="px-4 text-lg font-bold text-gray-100 md:px-8" href="#hours">
+        <AnchorLink className="px-4 text-lg font-bold text-gray-100 lg:text-xl md:px-8" href="#hours">
           Hours
         </AnchorLink>
-        <AnchorLink className="px-4 text-lg font-bold text-gray-100 md:px-8" href="#location">
+        <AnchorLink className="px-4 text-lg font-bold text-gray-100 lg:text-xl md:px-8" href="#location">
           Location
         </AnchorLink>
-        <AnchorLink className="px-4 text-lg font-bold text-gray-100 md:px-8" href="#specials">
+        <AnchorLink className="px-4 text-lg font-bold text-gray-100 lg:text-xl md:px-8" href="#specials">
           Specials
         </AnchorLink>
 
