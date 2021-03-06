@@ -1,3 +1,7 @@
 .fontFredoka{
     font-family:  "Fredoka One";
 }
+
+.text-shadow {
+text-shadow:2px 2px 4px black
+}

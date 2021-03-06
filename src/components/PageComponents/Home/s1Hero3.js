@@ -9,7 +9,7 @@ const S1Hero3 = (props) => {
 
       <section className="text-gray-600 body-font heroBG" 
       style={{
-          backgroundImage: `linear-gradient(to top, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${props.bgImage})`,
+          backgroundImage: `linear-gradient(to right, rgba(47, 133, 90, 0.6) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 66%, rgba(213, 0, 0, 0.6)), url(${props.bgImage})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
         }}>
@@ -23,7 +23,7 @@ const S1Hero3 = (props) => {
                     </div>
           <div className="w-full text-center lg:w-2/3">
             <h1 className="invisible text-xs font-medium">
-              {/* {props.Title}*/}
+               {props.Title}
               <span className="tracking-widest text-green-800 shadow fontFredoka">
                 {props.FirstWord}
               </span>
@@ -36,8 +36,8 @@ const S1Hero3 = (props) => {
             <div className="flex justify-center">
             <span
                 className="w-full px-10 py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka"
-                data-glf-cuid="8e7c87fd-2ed0-44b4-9886-8626e340905e"
-                data-glf-ruid="d3afdc87-1713-43aa-bd55-854fdf812f01"
+                data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0" 
+                data-glf-ruid="83c6af9e-70c9-4dc6-b2e8-223c37d5f648"
                 id="glfButton1"
               >
                 {' '}

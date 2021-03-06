@@ -2,11 +2,11 @@ import React from 'react'
 
 //import S1Hero from "./s1Hero"
 import S2BizDetailsCard from "./s2BizDetailsCard"
-import S3MenuButton from "./s3MenuButton"
+//import S3MenuButton from "./s3MenuButton"
 //import S2Features from "./s2Features"
 //import S3SplitSections from './s3SplitSections'
 
-import S4FeaturedSpecials from "./s4FeaturedSpecials"
+//import S4FeaturedSpecials from "./s4FeaturedSpecials"
 //import S4Stats from './s4Stats'
 //import S5Testimonials from './s5Testimonials'
 //import S6CTA from './s6CTA'
@@ -32,8 +32,8 @@ const HomePage = (props) => {
         />
 
         <S2BizDetailsCard />
-        <S4FeaturedSpecials />
-       <S3MenuButton />
+        {/*<S4FeaturedSpecials />
+       <S3MenuButton />*/}
 
        
 
