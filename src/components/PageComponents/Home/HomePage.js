@@ -23,9 +23,6 @@ const HomePage = (props) => {
         <S1Hero3
         bgImage={BG}
         Title="That Mexican Place"
-        FirstWord="THAT "
-        SecondWord="MEXiCAN "
-        ThirdWord="PLACE"
         Description="California Made, With Mexican Roots"
         ButtonText=""
         BelowButtonText=""

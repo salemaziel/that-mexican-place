@@ -142,7 +142,7 @@ const Footer2 = () => {
                 className="ml-3 text-gray-100"
                 href="https://www.yelp.com/biz/that-mexican-place-escondido-3"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 {/*<svg
                   fill="currentColor"
@@ -161,7 +161,7 @@ const Footer2 = () => {
                 className="ml-3 text-gray-100"
                 href="https://www.facebook.com/That-Mexican-Place-247214365743894/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
               >
                 {/*<svg
                   fill="currentColor"
@@ -178,7 +178,7 @@ const Footer2 = () => {
 
               <a
                 className="ml-3 text-gray-100"
-                href="https://www.facebook.com/That-Mexican-Place-247214365743894/"
+                href="mailto:thatmexicanplace92026@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >

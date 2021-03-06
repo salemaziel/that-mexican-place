@@ -71,7 +71,7 @@ const Header = () => {
             <a
                 href="https://www.yelp.com/biz/that-mexican-place-escondido-3"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full md:p-2 lg:p-0 md:mx-2 md:w-8 md:h-8 "
               >
                 <FaYelp size="1rem" className="" />
@@ -79,7 +79,7 @@ const Header = () => {
               <a
                 href="https://www.facebook.com/That-Mexican-Place-247214365743894/"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer noopener"
                 className="inline-flex flex-wrap items-center justify-center mx-1 text-center text-gray-100 align-middle border border-gray-100 rounded-full shadow md:p-2 lg:p-0 md:mx-2 md:w-8 md:h-8"
               >
                 <FaFacebookF size="1rem" className="" />

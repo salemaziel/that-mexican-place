@@ -24,11 +24,11 @@ const S1Hero3 = (props) => {
           <div className="w-full text-center lg:w-2/3">
             <h1 className="invisible text-xs font-medium">
                {props.Title}
-              <span className="tracking-widest text-green-800 shadow fontFredoka">
+              {/*<span className="tracking-widest text-green-800 shadow fontFredoka">
                 {props.FirstWord}
               </span>
               <span className="tracking-widest text-white fontFredoka">{props.SecondWord}</span>
-              <span className="tracking-widest text-red-700 fontFredoka">{props.ThirdWord}</span>
+      <span className="tracking-widest text-red-700 fontFredoka">{props.ThirdWord}</span>*/}
             </h1>
             <p className="mt-6 mb-8 text-xl font-bold leading-relaxed text-white lg:text-2xl" style={{ textShadow: '2px 2px 4px black' }}>
             {props.Description}
