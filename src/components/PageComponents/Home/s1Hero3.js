@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Logo from '../../../images/logo-that-mexican-place.png';
+import Logo from '../../../images/logo-that-mexican-place-old.png';
 
 const S1Hero3 = (props) => {
   return (
@@ -9,14 +9,12 @@ const S1Hero3 = (props) => {
 
       <section className="text-gray-600 body-font heroBG" 
       style={{
-          backgroundImage: `linear-gradient(to right, rgba(47, 133, 90, 0.6) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 66%, rgba(213, 0, 0, 0.6)), url(${props.bgImage})`,
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
+          backgroundImage: `linear-gradient(to right, rgba(47, 133, 90, 0.85) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 66%, rgba(213, 0, 0, 0.85)), linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(${props.bgImage})`,
         }}>
-        <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto animate-fade-in-fwd">
+        <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto lg:pb-8 animate-fade-in-fwd">
         <div className="mx-auto mb-5 lg:w-1/4">
           <img
-            className="object-cover object-center w-full mx-auto rounded"
+            className="object-cover object-center w-3/4 mx-auto rounded"
             alt="hero"
             src={Logo}
           />

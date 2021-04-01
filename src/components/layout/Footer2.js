@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../../images/logo-that-mexican-place.png';
+import Logo from '../../images/logo-that-mexican-place-old.png';
 import {
   FaFacebookF,
   FaEnvelope,
@@ -178,7 +178,7 @@ const Footer2 = () => {
 
               <a
                 className="ml-3 text-gray-100"
-                href="mailto:thatmexicanplace92026@gmail.com"
+                href="mailto:thatmexicanplacesco@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >

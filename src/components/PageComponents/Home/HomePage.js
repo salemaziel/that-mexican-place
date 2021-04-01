@@ -13,7 +13,11 @@ import S2BizDetailsCard from "./s2BizDetailsCard"
 
 //import S1Hero2 from "./s1Hero2"
 //import BG from "../../../images/mexican-serape-blanket-wooden-plank-background-wood-120257083.jpg"
-import BG from "../../../images/mexican-decoration.jpg"
+//import BG from "../../../images/mexican-decoration.jpg"
+//import BG from "../../../images/tacos+07.jpg"
+import BG from "../../../images/front-restaurant.jpg"
+
+
 import S1Hero3 from "./s1Hero3"
 
 

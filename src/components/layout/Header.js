@@ -8,7 +8,7 @@ import {
   FaYelp,
 } from 'react-icons/fa';
 
-import Logo from '../../images/logo-that-mexican-place.png';
+import Logo from '../../images/logo-that-mexican-place-old.png';
 
 import { Link } from 'gatsby';
 
