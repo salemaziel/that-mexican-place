@@ -9,10 +9,10 @@ const Index = () => (
   <Layout>
     <LocalBusinessJsonLd
   type='Restaurant'
-  id='https://thatmexicanplace.viadelweb.com'
+  id='https://thatmexicanplace.net'
   name="That Mexican Place"
   description="That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido."
-  url='https://thatmexicanplace.viadelweb.com'
+  url='https://thatmexicanplace.net'
   telephone='+17607433783'
   address={{
     streetAddress: '200 W El Norte Pkwy Suite 9',

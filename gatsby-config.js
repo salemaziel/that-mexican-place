@@ -5,7 +5,7 @@ module.exports = {
     title: `That Mexican Place`,
     description: `That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido`,
     author: `@salemaziel`,
-    siteUrl: `https://thatmexicanplace.viadelweb.com`,
+    siteUrl: `https://thatmexicanplace.net`,
     ...config
   },
   plugins: [
@@ -27,7 +27,7 @@ module.exports = {
         title: 'That Mexican Place',
         titleTemplate: 'That Mexican Place | %s ',
         description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
-        canonical: 'https://thatmexicanplace.viadelweb.com/',
+        canonical: 'https://thatmexicanplace.net/',
         defaultOpenGraphImageHeight: 1200,
         defaultOpenGraphImageWidth: 1200,
 //        mobileAlternate: {
@@ -43,12 +43,12 @@ module.exports = {
         openGraph: {
           type: 'website',
           locale: 'en_US',
-          url: 'https://thatmexicanplace.viadelweb.com',
+          url: 'https://thatmexicanplace.net',
           title: 'That Mexican Place',
           description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
           images: [
             {
-              url: 'https://that-mexican-place.viadelweb.com/logo/logo.png',
+              url: 'https://thatmexicanplace.net/logo/logo.png',
               width: 800,
               height: 600,
               alt: 'That Mexican Place Logo',
@@ -94,8 +94,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://viadelweb.com',
-        sitemap: 'https://viadelweb.com/sitemap.xml',
+        host: 'https://thatmexicanplace.net',
+        sitemap: 'https://thatmexicanplace.net/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     }, 
@@ -108,8 +108,11 @@ module.exports = {
         background_color: `#e53e3e`,
         theme_color: `#2f855a`,
         display: `minimal-ui`,
-        icon: `src/images/logo-that-mexican-place.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-that-mexican-place-old.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-offline`,
+    }
   ]
 };
