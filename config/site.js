@@ -3,8 +3,8 @@ module.exports = {
     title: 'That Mexican Place', // Navigation and Site Title
     titleAlt: 'That Mexican Place', // Title for JSONLD
     description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido',
-    url: 'https://thatmexicanplace.net', // Domain of your site. No trailing slash!
-    siteUrl: 'https://thatmexicanplace.net/', // url + pathPrefix
+    url: 'https://www.thatmexicanplace.net', // Domain of your site. No trailing slash!
+    siteUrl: 'https://www.thatmexicanplace.net/', // url + pathPrefix
     siteLanguage: 'en', // Language Tag on <html> element
     logo: '/logo/logo.png', // Used for SEO
     banner: '/logo/banner.png',

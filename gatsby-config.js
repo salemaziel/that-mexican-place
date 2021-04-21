@@ -5,7 +5,7 @@ module.exports = {
     title: `That Mexican Place`,
     description: `That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido`,
     author: `@salemaziel`,
-    siteUrl: `https://thatmexicanplace.net`,
+    siteUrl: `https://www.thatmexicanplace.net`,
     ...config
   },
   plugins: [
@@ -27,7 +27,7 @@ module.exports = {
         title: 'That Mexican Place',
         titleTemplate: 'That Mexican Place | %s ',
         description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
-        canonical: 'https://thatmexicanplace.net/',
+        canonical: 'https://www.thatmexicanplace.net/',
         defaultOpenGraphImageHeight: 1200,
         defaultOpenGraphImageWidth: 1200,
 //        mobileAlternate: {
@@ -43,12 +43,12 @@ module.exports = {
         openGraph: {
           type: 'website',
           locale: 'en_US',
-          url: 'https://thatmexicanplace.net',
+          url: 'https://www.thatmexicanplace.net',
           title: 'That Mexican Place',
           description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
           images: [
             {
-              url: 'https://thatmexicanplace.net/logo/logo.png',
+              url: 'https://www.thatmexicanplace.net/logo/logo.png',
               width: 800,
               height: 600,
               alt: 'That Mexican Place Logo',
@@ -94,8 +94,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://thatmexicanplace.net',
-        sitemap: 'https://thatmexicanplace.net/sitemap.xml',
+        host: 'https://www.thatmexicanplace.net',
+        sitemap: 'https://www.thatmexicanplace.net/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
     }, 
@@ -104,7 +104,9 @@ module.exports = {
       options: {
         name: `That Mexican Place`,
         short_name: `That Mexican Place`,
+        description: `That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido`,
         start_url: `/`,
+        lang: `en`,
         background_color: `#e53e3e`,
         theme_color: `#2f855a`,
         display: `minimal-ui`,
@@ -112,7 +114,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-offline`,
+      resolve: `gatsby-plugin-remove-serviceworker`,
     }
   ]
 };
