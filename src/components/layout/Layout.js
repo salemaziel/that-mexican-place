@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer2 from './Footer2';
+import Footer from './Footer';
 import Header from './Header';
 
 import "./layout.css"
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main className="text-gray-900">{children}</main>
-      <Footer2 />
+      <Footer />
     </>
   );
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import SplitSection from "../../SplitSection"
-import SvgCharts from '../../../svg/SvgCharts';
+import SvgCharts from '../../svg/SvgCharts';
 
 
 

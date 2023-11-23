@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from '../../Button';
-import HeroImage from '../../../svg/HeroImage';
+import Button from './Button';
+import HeroImage from '../../svg/HeroImage';
 
 const S1Hero2 = (props) => {
   return (
