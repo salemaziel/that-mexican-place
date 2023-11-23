@@ -81,14 +81,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
     },
-    {
+/*    {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://www.thatmexicanplace.net',
         sitemap: 'https://www.thatmexicanplace.net/sitemap.xml',
         policy: [{ userAgent: '*', allow: '/' }]
       }
-    }, 
+    }, */
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
