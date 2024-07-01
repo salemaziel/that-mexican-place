@@ -63,7 +63,7 @@ const Footer = () => {
         <div className="bg-black">
           <div className="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
             <p className="text-sm text-center text-gray-100 sm:text-left">
-              © 2021 That Mexican Place
+              © {new Date().getFullYear()} That Mexican Place
             </p>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
             <a
