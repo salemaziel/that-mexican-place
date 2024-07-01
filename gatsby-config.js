@@ -30,16 +30,6 @@ module.exports = {
         canonical: 'https://www.thatmexicanplace.net/',
         defaultOpenGraphImageHeight: 1200,
         defaultOpenGraphImageWidth: 1200,
-//        mobileAlternate: {
-//          media: 'only screen and (max-width: 640px)',
-//          href: 'https://m.canonical.ie',
-//        },
-//        languageAlternates: [
-//          {
-//            hrefLang: 'de-AT',
-//            href: 'https://www.canonical.ie/de',
-//          },
-//        ],
         openGraph: {
           type: 'website',
           locale: 'en_US',

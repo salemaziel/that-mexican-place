@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-starter-lander",
-  "author": "Hunter Chang",
+  "name": "that-mexican-place",
+  "author": "Salem Aziel",
   "repository": "https://github.com/codebushi/gatsby-starter-lander",
   "version": "1.0.0",
   "license": "MIT",
@@ -9,6 +9,7 @@
     "build": "gatsby build"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
     "@fontsource/fredoka-one": "^4.2.2",
     "@mdx-js/mdx": "^1.6.22",
     "gatsby": "^2.31.1",
@@ -27,6 +28,7 @@
     "prop-types": "^15.7.2",
     "react": "17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-awesome-reveal": "^4.2.12",
     "react-dom": "17.0.1",
     "react-helmet-async": "^1.0.7",
     "react-icons": "^4.1.0",

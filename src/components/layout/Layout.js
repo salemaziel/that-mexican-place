@@ -1,7 +1,7 @@
 import React from 'react';
-import Footer2 from './Footer2';
-import Header from './Header';
 
+import Header from './Header';
+import Footer from './Footer';
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main className="text-gray-900">{children}</main>
-      <Footer2 />
+      <Footer />
     </>
   );
 };
