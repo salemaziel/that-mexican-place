@@ -7,7 +7,7 @@ import S2HoursLocation from '../components/PageComponents/Home/s2HoursLocation';
 import BG from '../images/wood-bg.jpg';
 
 import { LocalBusinessJsonLd, GatsbySeo } from 'gatsby-plugin-next-seo';
-//import { Helmet } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 const Index = () => {
   const businessHours = [
@@ -22,8 +22,8 @@ const Index = () => {
 
   return (
     <>
-   {/*<Helmet>
-        {/* Google Tag Manager * /}
+   <Helmet>
+        {/* Google Tag Manager */}
         <script>
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -31,8 +31,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-P7TD4BSV');`}
         </script>
-        {/* End Google Tag Manager * /}
-      </Helmet>*/}
+        {/* End Google Tag Manager */}
+      </Helmet>
       <GatsbySeo
         title="That Mexican Place"
         description="That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido."
