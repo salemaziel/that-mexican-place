@@ -6,6 +6,7 @@ import {
   FaYelp,
 } from 'react-icons/fa';
 
+import { Link } from 'gatsby';
 
 const Footer = () => {
   return (
@@ -21,6 +22,22 @@ const Footer = () => {
               We have a variety of mexican food including: enchiladas, chilaquiles, burritos, tacos,
               tortas and more. We invite you to try our authentic Mexican Food.
             </p>
+            {/* Links to Privacy Policy and Terms of Conditions */}
+            <div className="flex flex-row justify-center mt-4 md:justify-start">
+              <Link
+                to="/privacy"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                Privacy Policy
+              </Link>
+              <span className="mx-2 text-gray-700">|</span>
+              <Link
+                to="/tos"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                Terms & Conditions
+              </Link>
+          </div>
           </div>
           <div className="flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center md:pl-10 md:mt-0 md:text-left">
             <div className="w-full ml-auto lg:w-3/4 md:w-3/4">
