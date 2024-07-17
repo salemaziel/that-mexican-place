@@ -6,6 +6,7 @@ import {
   FaYelp,
 } from 'react-icons/fa';
 
+import { Link } from 'gatsby';
 
 const Footer = () => {
   return (
@@ -14,14 +15,29 @@ const Footer = () => {
         <div className="container flex flex-col flex-wrap px-5 py-24 mx-auto md:items-center lg:items-start md:flex-row md:flex-nowrap">
           <div className="flex-shrink-0 w-3/4 mx-auto text-center md:w-1/2 md:mx-0 md:text-left">
             <a className="flex items-center justify-center font-medium text-gray-900 title-font md:justify-start">
-              
-              <img src={Logo} alt="That Mexican Place logo" className="w-24" />
+              <img src={Logo} alt="" className="w-24" />
               <span className="ml-3 text-xl">That Mexican Place </span>
             </a>
             <p className="mt-2 text-sm text-gray-500">
               We have a variety of mexican food including: enchiladas, chilaquiles, burritos, tacos,
               tortas and more. We invite you to try our authentic Mexican Food.
             </p>
+            {/* Links to Privacy Policy and Terms of Conditions */}
+            <div className="flex flex-row justify-center mt-4 md:justify-start">
+              <Link
+                to="/privacy"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                Privacy Policy
+              </Link>
+              <span className="mx-2 text-gray-700">|</span>
+              <Link
+                to="/tos"
+                className="text-gray-700 hover:text-gray-900"
+              >
+                Terms & Conditions
+              </Link>
+            </div>
           </div>
           <div className="flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center md:pl-10 md:mt-0 md:text-left">
             <div className="w-full ml-auto lg:w-3/4 md:w-3/4">
@@ -31,16 +47,16 @@ const Footer = () => {
               <p className="pl-px text-xs text-gray-700">
                 Latest news, updates, and coupons delivered monthly to your inbox.
               </p>
-              <form 
-              action="#" 
-              className="mt-2"
-              name="newsletterForm"
-              method="post"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field">
-                    <input type="hidden" name="bot-field" />
-                      <input type="hidden" name="form-name" value="newsletterForm" />
-              
+              <form
+                action="#"
+                className="mt-2"
+                name="newsletterForm"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="newsletterForm" />
+
                 <div className="flex items-center">
                   <input
                     type="email"
@@ -64,10 +80,10 @@ const Footer = () => {
         <div className="bg-black">
           <div className="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
             <p className="text-sm text-center text-gray-100 sm:text-left">
-              © 2021 That Mexican Place
+              © {new Date().getFullYear()} That Mexican Place
             </p>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-            <a
+              <a
                 className="ml-3 text-gray-100"
                 href="https://www.yelp.com/biz/that-mexican-place-escondido-3"
                 target="_blank"
@@ -76,7 +92,7 @@ const Footer = () => {
 
                 <FaYelp />
               </a>
-              
+
               <a
                 className="ml-3 text-gray-100"
                 href="https://www.facebook.com/That-Mexican-Place-247214365743894/"

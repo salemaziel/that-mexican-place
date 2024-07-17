@@ -1,7 +1,10 @@
 [build]
-command = "gatsby build"
-publish = "public"
-
+    command = "gatsby build"
+    publish = "public"
 
 [build.environment]
- NODE_VERSION = "12.20"
+    NODE_VERSION = "14.21.3"
+    NPM_VERSION = "6.14.8"
+
+
+    
