@@ -37,7 +37,7 @@ const Footer = () => {
               >
                 Terms & Conditions
               </Link>
-          </div>
+            </div>
           </div>
           <div className="flex flex-wrap justify-end flex-grow mt-10 -mb-10 text-center md:pl-10 md:mt-0 md:text-left">
             <div className="w-full ml-auto lg:w-3/4 md:w-3/4">
@@ -47,16 +47,16 @@ const Footer = () => {
               <p className="pl-px text-xs text-gray-700">
                 Latest news, updates, and coupons delivered monthly to your inbox.
               </p>
-              <form 
-              action="#" 
-              className="mt-2"
-              name="newsletterForm"
-              method="post"
-              data-netlify="true"
-              data-netlify-honeypot="bot-field">
-                    <input type="hidden" name="bot-field" />
-                      <input type="hidden" name="form-name" value="newsletterForm" />
-              
+              <form
+                action="#"
+                className="mt-2"
+                name="newsletterForm"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field">
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="newsletterForm" />
+
                 <div className="flex items-center">
                   <input
                     type="email"
@@ -83,7 +83,7 @@ const Footer = () => {
               © {new Date().getFullYear()} That Mexican Place
             </p>
             <span className="inline-flex justify-center mt-2 sm:ml-auto sm:mt-0 sm:justify-start">
-            <a
+              <a
                 className="ml-3 text-gray-100"
                 href="https://www.yelp.com/biz/that-mexican-place-escondido-3"
                 target="_blank"
@@ -92,7 +92,7 @@ const Footer = () => {
 
                 <FaYelp />
               </a>
-              
+
               <a
                 className="ml-3 text-gray-100"
                 href="https://www.facebook.com/That-Mexican-Place-247214365743894/"

@@ -67,20 +67,10 @@ public
 
 # Yarn
 yarn-error.log
-.pnp/
-.pnp.js
+
 # Yarn Integrity file
 .yarn-integrity
-yarn.lock
 
-.history*
+.history
 
-/.history
-
-.history/
-/.history/
-
-.vscode/*
-
-.vscode*
-/.vscode
+.lh

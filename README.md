@@ -1,17 +1,8 @@
-# Gatsby Lander
+# That Mexican Place
 
-This is an experimental starter built using [gatsby-theme-codebushi](https://github.com/codebushi/gatsby-theme-codebushi), a theme which uses [Tailwind CSS](https://tailwindcss.com/).
+Website for [That Mexican Place](https://thatmexicanplace.net) in Escondido, California.
 
-Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
+## Built using [GatsbyJS](https://gatsbyjs.org), [ReactJS](https://reactjs.org), and [TailwindCSS](https://tailwindcss.com), and hosted on [Netlify](https://netlify.com)
 
-## Preview
+by [Salem Aziel](https://salemaziel.com) from [Via Del Web](https://viadelweb.com/)
 
-https://gatsby-lander.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-<br/>
-`gatsby new gatsby-starter-lander https://github.com/codebushi/gatsby-starter-lander`
-
-Run `gatsby develop` in the terminal to start the dev site.
