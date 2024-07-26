@@ -1,19 +1,19 @@
 import React from 'react';
 
 import Logo from '../../../images/logo-that-mexican-place-old.png';
-import Logo from '../../../images/logo-that-mexican-place-old.png';
 
-const S1Hero = (props) => {
+//const S1Hero = ({ bgImage, Title, Description, onOpenDialog }) => {
+const S1Hero = ({ bgImage, Title, Description }) => {
   return (
     <>
       <section
         className="text-gray-600 body-font heroBG"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(47, 133, 90, 0.65) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 66%, rgba(213, 0, 0, 0.65)), linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(${props.bgImage})`,
+          backgroundImage: `linear-gradient(to right, rgba(47, 133, 90, 0.65) 0%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 66%, rgba(213, 0, 0, 0.65)), linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%), url(${bgImage})`,
         }}
       >
-        <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto lg:pb-8 animate-fade-in-fwd">
-          <div className="mx-auto mb-5 lg:w-1/4">
+        <div className="container flex flex-col items-center justify-center px-5 py-24 mx-auto lg:pb-8 lg:min-h-[672px]" >
+          <div className="mx-auto mb-5 lg:w-1/4 animate-fade-in-fwd">
             <img
               className="object-cover object-center w-3/4 mx-auto rounded"
               alt="hero"
@@ -24,15 +24,17 @@ const S1Hero = (props) => {
               <span className="block text-lg text-center" style={{ textShadow: "2px 2px 4px black" }} >200 W El Norte Pkwy, Escondido, CA 92026</span>
             </div>
           </div>
-          <div className="w-full text-center lg:w-2/3">
-            <h1 className="invisible text-xs font-medium">
-              {props.Title}
+          <div className="w-full text-center lg:w-2/3 animate-fade-in-fwd">
+            <h1 className="visible mb-32 text-2xl font-bold leading-relaxed text-white xl:mb-24"
+              style={{ textShadow: '2px 2px 4px black' }}
+            >
+              {Title}
             </h1>
             <p
               className="mt-6 mb-8 text-xl font-bold leading-relaxed text-white lg:text-2xl"
               style={{ textShadow: '2px 2px 4px black' }}
             >
-              {props.Description}
+              {Description}
             </p>
             <div className="flex justify-center">
               <span
@@ -40,6 +42,7 @@ const S1Hero = (props) => {
                 data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0"
                 data-glf-ruid="83c6af9e-70c9-4dc6-b2e8-223c37d5f648"
                 id="glfButton1"
+              /*onClick={onOpenDialog}*/
               >
                 {' '}
                 See Menu &amp; Order
@@ -64,7 +67,7 @@ const S1Hero = (props) => {
           <path d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0   C76.9,11.5,75.3,12.5,75.5,12.6z" />
           <path d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4   C19.9,13.7,15.7,13.3,15.6,13.2z" />
         </svg>
-        <svg
+        {/*<svg
           xmlns="http://www.w3.org/2000/svg"
           id="svg-pattern-1"
           viewBox="0 0 283.5 25.8"
@@ -80,7 +83,7 @@ const S1Hero = (props) => {
           <path d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6  c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z" />
           <path d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0   C76.9,11.5,75.3,12.5,75.5,12.6z" />
           <path d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4   C19.9,13.7,15.7,13.3,15.6,13.2z" />
-        </svg>
+        </svg>*/}
       </section>
     </>
   );

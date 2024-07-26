@@ -1,19 +1,20 @@
 import React from 'react';
 import Food from '../../../images/stock-photo-homemade-carne-asada-street-tacos-with-cheese-cilantro-and-onion-413734795-570x380.jpg';
 
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 
 const S4FeaturedSpecials = () => {
   return (
     <>
       <div id="specials" className="py-10 my-10" />
       <div className="pt-12 m-auto bg-white">
-        <Fade bottom>
+        <Fade direction="up" triggerOnce>
           <h1 className="justify-start px-5 py-5 mx-5 mb-5 text-4xl font-bold text-center text-gray-800 lg:px-20 md:px-10 lg:mx-40 md:mx-20">
             Featured Specials
           </h1>
         </Fade>
-        <Fade bottom>
+        <Fade direction="up" triggerOnce>
           <div className="pb-10 overflow-x-scroll hide-scroll-bar">
             <div className="flex ml-10 flex-nowrap lg:ml-40 md:ml-20 ">
               <div className="inline-block px-3">

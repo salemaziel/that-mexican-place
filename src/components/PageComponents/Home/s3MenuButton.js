@@ -1,11 +1,12 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 
 const S3MenuButton = () => {
   return (
     <>
       <section className="px-5 py-20 mx-auto my-20 lg:px-32">
-        <Fade bottom>
+        <Fade direction="up" triggerOnce>
           <div className="container mx-auto lg:w-3/4">
             <div className="flex justify-center flex-initial">
               <span

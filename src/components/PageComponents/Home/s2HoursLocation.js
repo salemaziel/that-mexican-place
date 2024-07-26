@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Fade from 'react-reveal/Fade';
+//import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal"
 
 import { MdLocationOn } from 'react-icons/md';
 
@@ -10,7 +11,7 @@ const S2HoursLocation = ({ hours }) => {
   return (
     <>
       <div className="container w-full h-full px-4 mx-auto my-20">
-        <Fade bottom>
+        <Fade direction="up" triggerOnce>
           <div className="container flex flex-col text-gray-800 bg-white border border-gray-200 rounded-lg shadow-xl md:flex-row rounded-xl">
             <div className="w-full mx-auto">
               <iframe

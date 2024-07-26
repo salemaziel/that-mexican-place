@@ -1,8 +1,4 @@
-
-
-
 @tailwind base;
-
 
 #svg-pattern-1 {
   position: relative;
@@ -17,6 +13,12 @@
   fill: white;
 }
 
+@media screen and (min-width: 1280px) {
+  #svg-pattern-1 {
+    position: absolute;
+    bottom: 0px;
+  }
+}
 
 .heroBG {
   opacity: 1;
@@ -28,6 +30,12 @@
   background-position: 50% 20%;
 }
 
+@media screen and (min-width: 1280px) {
+  .heroBG {
+    height: 91vh;
+  }
+}
+
 .hide-scroll-bar {
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -35,7 +43,6 @@
 .hide-scroll-bar::-webkit-scrollbar {
   display: none;
 }
-
 
 @tailwind components;
 

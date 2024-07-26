@@ -4,7 +4,6 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {
   FaFacebookF,
   FaEnvelope,
-  FaPhoneAlt,
   FaYelp,
 } from 'react-icons/fa';
 
@@ -20,6 +19,25 @@ const Header = () => {
       setScroll(window.scrollY > 100);
     });
   }, []);
+  //  useEffect(() => {
+  //    const handleScroll = () => {
+  //      setScroll(window.scrollY > 100);
+  //    };
+
+  //    window.addEventListener('scroll', handleScroll);
+
+  // Cleanup function to remove the event listener
+  //    return () => {
+  //      window.removeEventListener('scroll', handleScroll);
+  //    };
+  //  }, []);
+
+
+
+
+  //  const handleLogoClick = () => {
+  //    localStorage.removeItem('selectedLocation');
+  //  };
 
   return (
     <>
@@ -59,16 +77,21 @@ const Header = () => {
         <FaMapMarkerAlt className="w-5 h-5 mx-2" />
         1234 Broadway St <br /> Escondido, CA 92025
         </a>*/}
+              <Link to="/" /*onClick={handleLogoClick}*/ className="flex items-center text-2xl">
+                <div className="w-10 mr-3">
+                  <img src={Logo} alt="Logo" className="w-full" />
+                </div>
+              </Link>
               <a
                 href="tel:7607433783"
                 className="invisible my-1 text-lg font-bold tracking-widest text-gray-100 md:visible md:flex text-shadow"
               >
-                <FaPhoneAlt className="w-5 h-5 mx-2" />
+                {/*<FaPhoneAlt className="w-5 h-5 mx-2" />*/}
                 (760) 743-3783
               </a>
             </div>
             <div className="flex flex-row justify-end w-1/4 align-middle ">
-            <a
+              <a
                 href="https://www.yelp.com/biz/that-mexican-place-escondido-3"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -107,7 +130,7 @@ const Header = () => {
             (scroll ? ' visible' : ' hidden')
           }
         >
-          <Link to="/" className="flex items-center text-2xl">
+          <Link to="/" /*onClick={handleLogoClick}*/ className="flex items-center text-2xl">
             <div className="w-20 mr-3">
               <img src={Logo} alt="Logo" className="w-full" />
             </div>
@@ -135,7 +158,7 @@ const Header = () => {
           <div className="hidden md:block">
             <span
               className="w-full px-6 py-5 text-xl text-center text-white whitespace-no-wrap bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka"
-              data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0" 
+              data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0"
               data-glf-ruid="83c6af9e-70c9-4dc6-b2e8-223c37d5f648"
               id="glfButton1"
             >
