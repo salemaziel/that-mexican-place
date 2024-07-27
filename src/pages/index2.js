@@ -1,37 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { navigate } from 'gatsby';
-import LocationModal from '../components/LocationModalHeadlessUI';
+import React from 'react';
 
 import Layout from '../components/layout/Layout';
 
-import S1Hero from '../components/PageComponents/Home/s1Hero';
-import S2HoursLocation from '../components/PageComponents/Home/s2HoursLocation';
+import S1HomeHero from '../components/PageComponents/Home/s1HomeHero';
+//import S2HoursLocation from '../components/PageComponents/Home/s2HoursLocation';
 import BG from '../images/wood-bg.jpg';
 
 import { LocalBusinessJsonLd, GatsbySeo } from 'gatsby-plugin-next-seo';
-import { Helmet } from 'react-helmet-async';
 
-const Index = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  useEffect(() => {
-    const storedLocation = localStorage.getItem('selectedLocation');
-    if (storedLocation) {
-      navigate(`/${storedLocation}`);
-    } else {
-      setIsOpen(false);
-    }
-  }, []);
-
-  const handleLocationSelect = (location) => {
-    localStorage.setItem('selectedLocation', location);
-    navigate(`/${location}`);
-  };
-
-  const handleOpenDialog = () => {
-    setIsOpen(true);
-  };
-
+const Index2 = () => {
   const businessHours = [
     { name: 'Sunday', hours: '8:00am - 10:00pm' },
     { name: 'Monday', hours: '8:00am - 10:00pm' },
@@ -44,17 +21,6 @@ const Index = () => {
 
   return (
     <>
-      <Helmet>
-        {/* Google Tag Manager */}
-        <script>
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P7TD4BSV');`}
-        </script>
-        {/* End Google Tag Manager */}
-      </Helmet>
       <GatsbySeo
         title="That Mexican Place"
         description="That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido."
@@ -63,8 +29,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           url: 'https://thatmexicanplace.net',
           title: 'That Mexican Place',
           locale: 'en_US',
-          description:
-            'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
+          description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
           images: [
             {
               url: 'https://www.thatmexicanplace.net/logo/logo.png',
@@ -80,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           site: '@thatmexicanplace',
           cardType: 'summary_large_image',
         }}
-      />
+        />
       <LocalBusinessJsonLd
         type="Restaurant"
         id="https://thatmexicanplace.net"
@@ -100,20 +65,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           longitude: '-117.0937007',
         }}
         images={['https://thatmexicanplace.net/assets/img/logo-that-mexican-place.png']}
+        
       />
 
-      <Layout>
-        <LocationModal isOpen={isOpen} onSelect={handleLocationSelect} />
-        <S1Hero
-          bgImage={BG}
-          Title="That Mexican Place"
-          Description="California Made, With Mexican Roots"
-          onOpenDialog={handleOpenDialog}
-        />
-        <S2HoursLocation hours={businessHours} />
-      </Layout>
+    <Layout>
+      <S1HomeHero
+        bgImage={BG}
+        Title="That Mexican Place"
+        Description="California Made, With Mexican Roots"
+      />
+    </Layout>
     </>
   );
 };
 
-export default Index;
+export default Index2;
