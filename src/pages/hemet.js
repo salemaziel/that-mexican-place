@@ -99,7 +99,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     locationAddress="281 N Sanderson Ave Ste 281, Hemet, CA 92545"
                     locationPhoneNumber="(951) 305-6043"
                     menuButtonAttributes={{
-                        onClick: () => console.log('Menu Clicked'),
                         id: 'glfButton1',
                         'data-glf-cuid': 'fcc9622a-6d23-4af1-895b-5ff1021ff7b0',
                         'data-glf-ruid': '29d33d42-b2cb-458b-bcf4-08d56022918f',

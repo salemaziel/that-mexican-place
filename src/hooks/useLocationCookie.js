@@ -1,15 +1,24 @@
-// src/hooks/useLocationCookie.js
+// src/hooks/useLocationCookie2.js
 import { useState, useEffect } from "react";
 
 const useLocationCookie = (cookieName) => {
-  const [cookieValue, setCookieValue] = useState("");
+  const [cookieValue, setCookieValue] = useState(() => {
+    if (typeof document !== "undefined") {
+      const cookie = document.cookie
+        .split("; ")
+        .find((row) => row.startsWith(`${cookieName}=`));
+      return cookie ? cookie.split("=")[1] : "";
+    }
+    return "";
+  });
 
   useEffect(() => {
-    const cookie = document.cookie
-      .split("; ")
-      .find((row) => row.startsWith(`${cookieName}=`));
-
-    setCookieValue(cookie ? cookie.split("=")[1] : "");
+    if (typeof document !== "undefined") {
+      const cookie = document.cookie
+        .split("; ")
+        .find((row) => row.startsWith(`${cookieName}=`));
+      setCookieValue(cookie ? cookie.split("=")[1] : "");
+    }
   }, [cookieName]);
 
   const setCookie = (value, expirationDate) => {
