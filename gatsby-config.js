@@ -25,23 +25,23 @@ module.exports = {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
         id: "G-5XJ1KGDT8Y",
-  
+
         // Include GTM in development.
         //
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false,
-  
+
         // datalayer to be set before GTM is loaded
         // should be an object or a function that is executed in the browser
         //
         // Defaults to null
         defaultDataLayer: { platform: "gatsby" },
-  
+
         // Specify optional GTM environment details.
         //gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         //gtmPreview: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_PREVIEW_NAME",
         //dataLayerName: "YOUR_DATA_LAYER_NAME",
-  
+
         // Name of the event that is triggered
         // on every Gatsby route change.
         //
@@ -52,9 +52,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-next-seo',
       options: {
-        title: 'That Mexican Place',
+        title: 'That Mexican Place | %s',
         titleTemplate: 'That Mexican Place | %s ',
-        description: 'That Mexican Place is a Mexican restaurant located at Escondido, CA. Mexican food near Escondido.',
+        description: 'That Mexican Place is a Mexican restaurant chain located in California. Mexican food near you. | %s',
         canonical: 'https://www.thatmexicanplace.net/',
         defaultOpenGraphImageHeight: 1200,
         defaultOpenGraphImageWidth: 1200,
@@ -79,9 +79,9 @@ module.exports = {
           site: '@thatmexicanplace',
           cardType: 'summary_large_image',
         },
-//        facebook: {
-//          appId: '1234567890',
-//        },
+        //        facebook: {
+        //          appId: '1234567890',
+        //        },
       },
     },
     {
@@ -109,14 +109,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
     },
-/*    {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        host: 'https://www.thatmexicanplace.net',
-        sitemap: 'https://www.thatmexicanplace.net/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
-      }
-    }, */
+    /*    {
+          resolve: 'gatsby-plugin-robots-txt',
+          options: {
+            host: 'https://www.thatmexicanplace.net',
+            sitemap: 'https://www.thatmexicanplace.net/sitemap.xml',
+            policy: [{ userAgent: '*', allow: '/' }]
+          }
+        }, */
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
