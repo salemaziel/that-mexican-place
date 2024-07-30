@@ -2,8 +2,7 @@ import React from 'react';
 
 import Logo from '../../../images/logo-that-mexican-place-old.png';
 
-//const S1Hero = ({ bgImage, Title, Description, onOpenDialog }) => {
-const S1Hero = ({ bgImage, Title, Description }) => {
+const S1Hero = ({ bgImage, Title, Description, onOpenDialog }) => {
   return (
     <>
       <section
@@ -25,7 +24,7 @@ const S1Hero = ({ bgImage, Title, Description }) => {
             </div>
           </div>
           <div className="w-full text-center lg:w-2/3 animate-fade-in-fwd">
-            <h1 className="visible mb-32 text-2xl font-bold leading-relaxed text-white xl:mb-24"
+            <h1 className="invisible mb-32 text-2xl font-bold leading-relaxed text-white xl:mb-24"
               style={{ textShadow: '2px 2px 4px black' }}
             >
               {Title}
@@ -37,19 +36,18 @@ const S1Hero = ({ bgImage, Title, Description }) => {
               {Description}
             </p>
             <div className="flex justify-center">
-              <span
+
+              <button
                 className="w-full px-10 py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka"
-                data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0"
-                data-glf-ruid="83c6af9e-70c9-4dc6-b2e8-223c37d5f648"
-                id="glfButton1"
-              /*onClick={onOpenDialog}*/
+                onClick={onOpenDialog}
               >
                 {' '}
                 See Menu &amp; Order
-              </span>
+              </button>
             </div>
           </div>
         </div>
+
         <svg
           xmlns="http://www.w3.org/2000/svg"
           id="svg-pattern-1"
@@ -90,3 +88,15 @@ const S1Hero = ({ bgImage, Title, Description }) => {
 };
 
 export default S1Hero;
+
+
+{/*<span
+                className="w-full px-10 py-5 text-xl text-center text-white bg-red-600 rounded-md cursor-pointer hover:bg-red-800 fontFredoka"
+                data-glf-cuid="fcc9622a-6d23-4af1-895b-5ff1021ff7b0"
+                data-glf-ruid="83c6af9e-70c9-4dc6-b2e8-223c37d5f648"
+                id="glfButton1"
+                onClick={onOpenDialog}
+              >
+                {' '}
+                See Menu &amp; Order
+              </span>*/}
